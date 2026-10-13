@@ -6,7 +6,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.security.PublicKey;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -96,8 +95,7 @@ public class Bank {
             e2.printStackTrace();
         } catch (ClassNotFoundException e3) {
             e3.printStackTrace();
-        }
-        fis.close();
+        } 
         return b;
     }
 

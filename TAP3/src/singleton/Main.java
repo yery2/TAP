@@ -13,6 +13,13 @@ public class Main {
 		//myCar2 = myCar --> both are the same instance, according to Singleton
 		Car myCar2 = Car.getInstance();
 		myCar2.run();
+
+		Counter myCount = Counter.getInstance();
+		myCount.increment();
+		myCount.getCount();
+
+		Counter myCount2 = Counter.getInstance();
+		myCount2.getCount();
 	}
 
 }
