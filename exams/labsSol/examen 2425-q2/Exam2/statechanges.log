@@ -1,0 +1,7 @@
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@27fa135a changed state to: DeliveredState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@27fa135a changed state to: ReceivedState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@27fa135a changed state to: ReceivedState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@421faab1 changed state to: DeliveredState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@421faab1 changed state to: OrderedState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@421faab1 changed state to: DeliveredState{}
+[Fri Nov 15 16:03:47 CET 2024] ex3.Package@421faab1 changed state to: ReceivedState{}

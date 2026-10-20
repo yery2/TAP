@@ -1,0 +1,24 @@
+
+Java EXAM
+
+1. Use TAP2/functional code (Gender, Person).
+    a) The first goal is to create a select method that accepts
+    a list of Person, a Predicate<Person> and a Query enum type (ALL, MAX). This static method will return
+    a List<Person) with the Persons satisfying the query, For example:  SELECT * FROM PERSONS WHERE AGE>3, or
+    SELECT MAX FROM PERSONS WHERE AGE>3. You can also pass as parameter a Comparator<Person>.
+    Demonstrate in the code the use of closures.
+    b)  The second goal is to make select method generic so that accepts List<T> and Predicate<T>,
+
+2. Use TAP3/filesystem2 entire directory.
+   a) Add to directory a search(Predicate<File)) method enabling queries using closures.
+   b) Create a Decorator of Predicate<T> that counts the number of executions of the test method. Provide
+   a getCountTest method returning an int with that counter.  Execute that decorator with a query (closure) invoking the
+   search method in the previous section (a). Show that the counter correctly computes the number of
+   times that test method was invoked.
+
+ 3. You can use TAP4/anotations and TAP3/filesystem2
+    Create a new annotation called BlackList including a list of names.
+    Use this annotation in the Directory class and include names of directories that must be excluded from the search.
+    Check that when you search in a directory, all files inside blacklist directories are not processed,
+
+
